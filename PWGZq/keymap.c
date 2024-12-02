@@ -167,7 +167,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_1:
     if (record->event.pressed) {
-      SEND_STRING("glynn_jordan@solarturbines.com);
+      SEND_STRING("glynn_jordan@solarturbines.com");
     }
     break;
     case MAC_MISSION_CONTROL:
