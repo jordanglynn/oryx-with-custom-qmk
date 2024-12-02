@@ -162,7 +162,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING(SS_LSFT(SS_TAP(X_P)) SS_DELAY(10) SS_TAP(X_U) SS_DELAY(10) SS_TAP(X_L) SS_DELAY(10) SS_TAP(X_P) SS_DELAY(10) SS_LSFT(SS_TAP(X_S)) SS_DELAY(10) SS_TAP(X_C) SS_DELAY(10) SS_TAP(X_0) SS_DELAY(10) SS_LSFT(SS_TAP(X_EQUAL)) SS_DELAY(10) SS_LSFT(SS_TAP(X_EQUAL)) SS_DELAY(10) SS_LSFT(SS_TAP(X_D)) SS_DELAY(10) SS_TAP(X_J) SS_DELAY(10) SS_LSFT(SS_TAP(X_2)) SS_DELAY(10) SS_TAP(X_N) SS_DELAY(10) SS_TAP(X_G) SS_DELAY(10) SS_TAP(X_0));
+      SEND_STRING("PulpSc0++Dj@ng0");
     }
     break;
     case ST_MACRO_1:
