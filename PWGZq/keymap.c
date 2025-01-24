@@ -170,7 +170,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING("PulpSc0++Dj@ng0");
+      SEND_STRING("F1!g#+OfP@ss@g3");
     }
     break;
     case ST_MACRO_1:
@@ -180,7 +180,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_P) SS_DELAY(100) SS_TAP(X_A) SS_DELAY(100) SS_TAP(X_S) SS_DELAY(100) SS_TAP(X_S));
+      SEND_STRING("PulpSc0++Dj@ng0");
     }
     break;
     case MAC_MISSION_CONTROL:
