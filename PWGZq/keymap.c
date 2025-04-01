@@ -182,7 +182,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING("PulpSc0++Dj@ng0");
+      SEND_STRING("GGC0$m!cR3w!nd.");
     }
     break;
     case MAC_MISSION_CONTROL:
