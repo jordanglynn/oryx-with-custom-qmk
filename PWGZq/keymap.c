@@ -172,7 +172,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING("F1!g#+OfP@ss@g3");
+      SEND_STRING("GGC0$m!cR3w!nd.");
     }
     break;
     case ST_MACRO_1:
@@ -182,7 +182,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING("GGC0$m!cR3w!nd.");
+      SEND_STRING("F1!g#+OfP@ss@g3");
     }
     break;
     case MAC_MISSION_CONTROL:
