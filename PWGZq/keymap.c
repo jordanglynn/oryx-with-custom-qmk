@@ -197,7 +197,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING("jglynn@cat.com);
+      SEND_STRING("jglynn@cat.com");
     }
     break;
     case ST_MACRO_3:
@@ -222,7 +222,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
     break;
     case ST_MACRO_7:
     if (record->event.pressed) {
-      SEND_STRING("22141354);
+      SEND_STRING("22141354");
     }
     break;
     case ST_MACRO_8:
