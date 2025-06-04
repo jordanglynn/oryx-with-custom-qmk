@@ -1,12 +1,14 @@
-#define FLOW_TAP_TERM 100
+#define FLOW_TAP_TERM 125
 #define CHORDAL_HOLD
 #define RETRO_TAPPING
+
+#define PERMISSIVE_HOLD
 
 #undef RGB_MATRIX_TIMEOUT
 #define RGB_MATRIX_TIMEOUT 600000
 
 #define USB_SUSPEND_WAKEUP_DELAY 0
-#define SERIAL_NUMBER "PWGZq/OaD7ly"
+#define SERIAL_NUMBER "PWGZq/40Jaam"
 #define LAYER_STATE_8BIT
 #define COMBO_COUNT 8
 #define HCS(report) host_consumer_send(record->event.pressed ? report : 0); return false
