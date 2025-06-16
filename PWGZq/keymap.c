@@ -199,47 +199,47 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_DOT)SS_DELAY(10)  SS_TAP(X_SPACE));
+      SEND_STRING(". ");
     }
     break;
     case ST_MACRO_1:
     if (record->event.pressed) {
-      SEND_STRING(SS_LALT(SS_TAP(X_1) SS_TAP(X_1) ));
+      SEND_STRING("jordanglynn@gmail.com");
     }
     break;
     case ST_MACRO_2:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_2)SS_DELAY(100)  SS_TAP(X_2));
+      SEND_STRING("jglynn@cat.com");
     }
     break;
     case ST_MACRO_3:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_3)SS_DELAY(100)  SS_TAP(X_3));
+      SEND_STRING("d52706");
     }
     break;
     case ST_MACRO_4:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_4)SS_DELAY(100)  SS_TAP(X_4));
+      SEND_STRING("glynn_jordan@solarturbines.com");
     }
     break;
     case ST_MACRO_5:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_5)SS_DELAY(100)  SS_TAP(X_5));
+      SEND_STRING("GGC0$m!cR3w!nd.");
     }
     break;
     case ST_MACRO_6:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_6)SS_DELAY(100)  SS_TAP(X_6));
+      SEND_STRING("9363619222");
     }
     break;
     case ST_MACRO_7:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_7)SS_DELAY(100)  SS_TAP(X_7));
+      SEND_STRING("221479");
     }
     break;
     case ST_MACRO_8:
     if (record->event.pressed) {
-      SEND_STRING(SS_TAP(X_8)SS_DELAY(100)  SS_TAP(X_8));
+      SEND_STRING("22141354");
     }
     break;
     case MAC_MISSION_CONTROL:
